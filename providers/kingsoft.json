@@ -1,4 +1,4 @@
 {
     "provider": "Kingsoft",
-    "url": [".ksyuncdn.com"]
+    "url": [".ksyuncdn.com", ".ks-cdn.com"]
 }
