@@ -1,4 +1,4 @@
 {
     "provider": "alibaba",
-    "url": [".gslb.tbcache.com", ".gslb.taobao.com"]
+    "url": [".gslb.tbcache.com", ".gslb.taobao.com", ".alikunlun.com", ".aliyuncs.com", ".aliyun-inc.com"]
 }

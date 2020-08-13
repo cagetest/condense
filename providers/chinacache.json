@@ -1,4 +1,4 @@
 {
     "provider": "ChinaCache",
-    "url": [".ccgslb.com", ".ccgslb.net", ".c3cache.net", ".c3cache.net", ".c3cdn.net"]
+    "url": ["cncssr.chinacache.net", ".ccgslb.com", ".ccgslb.net", ".c3cache.net", ".c3cache.net", ".c3cdn.net"]
 }

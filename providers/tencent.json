@@ -1,0 +1,4 @@
+{
+    "provider": "Tencent",
+    "url": [".cdn.dnsv1.com", "cdntip.com", ".dnspod.com"]
+}

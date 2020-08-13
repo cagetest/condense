@@ -1,4 +1,4 @@
 {
     "provider": "Windows Azure",
-    "url": [".vo.msecnd.net"]
+    "url": [".vo.msecnd.net", ".azureedge.net"]
 }
