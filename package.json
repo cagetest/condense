@@ -1,0 +1,23 @@
+{
+  "name": "condense",
+  "version": "1.0.0",
+  "description": "Condenses and matches common CDNs",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "scripts": {
+    "run": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagetest/condense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagetest/condense/issues"
+  },
+  "homepage": "https://github.com/cagetest/condense#readme"
+}

@@ -1,0 +1,4 @@
+{
+    "provider":"Akamai",
+    "url": [".akamai.net", ".akamaiedge.net", ".akamaitechnologies.com", ".akadns.net"]
+}
