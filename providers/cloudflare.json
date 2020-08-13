@@ -1,0 +1,4 @@
+{
+    "provider": "Cloudflare",
+    "url": [".cloudflare.com", ".cloudflare.net"]
+}

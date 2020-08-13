@@ -1,0 +1,4 @@
+{
+    "provider": "EdgeCast",
+    "url": [".systemcdn.net", ".edgecastcdn.net", ".adn.", ".wac.", ".wpc."]
+}
