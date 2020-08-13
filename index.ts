@@ -35,11 +35,24 @@ async function main() {
     const urlProviderJSON = JSON.stringify([...urlProvider])
     fs.writeFileSync("complete_providers.json", providerUrlJSON)
     fs.writeFileSync("complete_urls.json", urlProviderJSON)
-    
-    // to reconstruct:
-    // const mapActual = new Map(JSON.parse(mapJSON))
-    // console.log(mapActual)
+}
 
+// to reconstruct, use one of the methods below,
+// or just do:
+// const file = fs.readFileSync("./complete_providers.json", "utf-8")
+// const mapActual = new Map(JSON.parse(file))
+// console.log(mapActual)
+
+function _reconstructProviderUrls(): Map<string, string[]> {
+    const file = fs.readFileSync("./complete_providers.json", "utf-8")
+    const mapActual = new Map<string, string[]>(JSON.parse(file))
+    return mapActual
+}
+
+function _reconstructUrlProvider(): Map<string, string> {
+    const file = fs.readFileSync("./complete_urls.json", "utf-8")
+    const mapActual = new Map<string, string>(JSON.parse(file))
+    return mapActual
 }
 
 // readJSON reads every json in ./providers
