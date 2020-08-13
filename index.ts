@@ -8,8 +8,6 @@ type Urls = string[]
 interface RawProviderURLMap {
     provider: Provider,
     url: Urls
-
-    toJSON(): JSON
 }
 
 const src = "./providers/"
