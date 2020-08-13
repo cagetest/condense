@@ -1,4 +1,4 @@
 {
     "provider": "Fastly",
-    "url": [".fastlylb.net"]
+    "url": [".fastlylb.net", ".global.fastly.net", ".us-eu.fastly.net", ".shared.global.fastly.net", ".shared.us-eu.fastly.net"]
 }
