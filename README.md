@@ -25,3 +25,7 @@ tsc && npm index.js
 ```
 
 The script outputs two files, namely `complete_providers.json` and `complete_urls.json`, that associates CDN providers with a list of domains, and a CDN domain with the provider name, respectively.
+
+## Disclaimer
+
+Most of these provider JSONs are sourced from the internet and various blog posts. Some of them may be inaccurate, some may no longer work, some may not have ever worked. Please do submit an issue and/or pull request had you find more CDN/domains.
