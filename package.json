@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^14.6.0"
+    "@types/node": "^14.14.35"
   },
   "scripts": {
     "run": "tsc && node index.js"
